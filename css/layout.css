@@ -5,12 +5,23 @@ body {
 }
 
 .heading {
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	padding: 0 20px;
 }
 
 .heading h1 {
+	margin: 10x 0;
 }
 
 .box {
+	width: 32%;
+	margin-right: 1%;
+	margin-bottom:100px;
+	float:left;
+	padding: 5%;
 }
 
 .box:last-child {
@@ -20,10 +31,27 @@ body {
 }
 
 .box img {
+	width:100%;
 }
 
 .box a.read-more {
+	display:block;
+	
 }
 
 .footer {
+	bottom:0;
+	left:0;
+	position: fixed;
+	border-top:2px solid #eee;
+	width: 100%;
+	padding: 0 20px;
+}
+
+.main-content ul li{
+	float:left;	
+}
+
+.main-content ul{
+	list-style-type: none;
 }
